@@ -13,7 +13,7 @@ addBtnEl.addEventListener('click', function(){
     let newInput = addToListEl.value
         username.push(newInput)
     for (let i in username){
-        userListEl.innerHTML += `<li>${username[i]}</li>`
+        userListEl.innerHTML += `<li style="margin-left:20px">${username[i]}</li>`
     }
     addToListEl.value = ''
     console.log(username)
