@@ -12,7 +12,7 @@ let username = []
 addBtnEl.addEventListener('click', function(){
     username = []
     let newInput = addToListEl.value
-        username.push(newInput)
+    username.push(newInput)
     for (let i in username){
         userListEl.innerHTML += 
         `<li style="margin-left:20px">${username[i]}</li>`
